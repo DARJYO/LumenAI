@@ -1,17 +1,18 @@
 
-# Agri-LLM
+# LumenAI
 
-Agri-LLM is an AI-powered language model tailored for the agriculture industry. It leverages natural language processing (NLP) to provide farmers, agribusinesses, and policymakers with actionable insights, predictive analytics, and multilingual conversational capabilities. Developed by DARJYO, Agri-LLM aims to revolutionize agricultural intelligence and foster sustainability.
+LumenAI is an advanced AI framework designed to streamline the development of intelligent applications. This repository provides a robust set of tools and libraries that facilitate the integration of AI capabilities into v
  
 ---
-<img src="https://github.com/arishma108/arishma108/blob/main/assets/agrillm.png" height="100%" width="100%">   
+<img src="" height="100%" width="100%">   
 
 ## Features
 
-- **Localized Intelligence**: Provides region-specific recommendations and insights using curated agricultural datasets.
-- **Conversational AI**: Multilingual support for diverse agricultural communities.
-- **Predictive Capabilities**: Analyzes crop health, weather patterns, and market trends.
-- **Scalable Integration**: APIs for embedding AI-driven analytics into existing platforms.
+- **Modular Architecture**: Easily extend and customize components to fit your project needs.
+- **Conversational AI**: Multilingual support for diverse communities.
+- **Pre-trained Models**:  Access a variety of pre-trained models for quick deployment.
+- **User-friendly API**: Simplified interfaces for developers to interact with AI functionalities.
+- **Comprehensive Documentation**: Detailed guides and examples to help you get started quickly.
 
 ---
 
@@ -23,13 +24,13 @@ Agri-LLM is an AI-powered language model tailored for the agriculture industry. 
 
 ---
 
-<img src="https://github.com/arishma108/arishma108/blob/main/assets/agrillm1.png" height="100%" width="100%">    
+<img src="" height="100%" width="100%">    
 
 ## Getting Started
 
 ### Prerequisites
 
-To set up the Agri-LLM prototype, ensure you have the following installed:
+To set up the LumenAI prototype, ensure you have the following installed:
 
 - Python 3.8+
 - pip (Python package manager)
@@ -39,8 +40,8 @@ To set up the Agri-LLM prototype, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DARJYO/agri-llm.git
-   cd agri-llm
+   git clone https://github.com/DARJYO/LumenAI.git
+   cd LumenAI
    ```
 
 2. Create a virtual environment:
@@ -61,9 +62,27 @@ To set up the Agri-LLM prototype, ensure you have the following installed:
 
 ---
 
+## Usage
+
+To use LumenAI in your project, import the necessary modules and initialize the framework as follows:
+```
+from lumenai import Lumen
+
+# Initialize LumenAI
+lumen = Lumen()
+
+# Load a pre-trained model
+model = lumen.load_model('model_name')
+
+# Make predictions
+predictions = model.predict(data)
+```
+
+---
+
 ## API Endpoints
 
-Agri-LLM provides RESTful API endpoints for seamless integration:
+LumenAI provides RESTful API endpoints for seamless integration:
 
 - `POST /predict`: Generate insights based on user input.
 - `GET /health`: Check the health status of the API.
@@ -75,7 +94,7 @@ Refer to the [API Documentation](docs/api.md) for detailed usage instructions.
 
 ## Architecture
 
-Agri-LLM is built on the following stack:
+LumenAI is built on the following stack:
 
 - **Backend**: FastAPI for API handling.
 - **Model**: Hugging Face Transformers for NLP.
@@ -89,11 +108,11 @@ Agri-LLM is built on the following stack:
 We welcome contributions from the community! To contribute:
 
 1. Fork the repository.
-2. Create a feature branch:
+2. Create a bug fix or feature branch:
    ```bash
    git checkout -b feature-name
    ```
-3. Commit your changes:
+3. Commit your changes with descriptive messages:
    ```bash
    git commit -m "Add new feature"
    ```
@@ -108,14 +127,15 @@ For detailed guidelines, refer to the [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Agri-LLM is licensed under the DARJYO License. See the [LICENSE](LICENSE) file for details.
+LumenAI is licensed under the DARJYO License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Acknowledgments
 
-Agri-LLM is powered by:
+LumenAI is powered by:
 
+- [DARJYO](https://www.darjyo.com/)
 - [Hugging Face](https://huggingface.co/)
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [persadian](https://github.com/arishma108/) for their vision and support.
@@ -128,8 +148,11 @@ For inquiries, feedback, or collaboration opportunities, contact us at:
 
 - **Email**: info@darjyo.com
 - **Website**: [darjyo.com](https://darjyo.com/)
-- **GitHub Issues**: [Report a bug](https://github.com/DARJYO/agri-llm/issues)
+- **GitHub Issues**: [Report a bug](https://github.com/DARJYO/LumenAI/issues)
 
 ---
+## Current Date
 
-Agri-LLM: Empowering agriculture with AI!
+This README was last updated on Saturday, January 18, 2025, 5 PM SAST.
+
+---
