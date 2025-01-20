@@ -16,14 +16,6 @@ LumenAI is an advanced AI framework designed to streamline the development of in
 
 ---
 
-## Use Cases
-
-- **Farmers**: Access crop management tips, pest control measures, and weather forecasts.
-- **Agribusinesses**: Optimize supply chain logistics and resource planning.
-- **Policymakers**: Make data-driven decisions to support sustainable agriculture.
-
----
-
 <img src="" height="100%" width="100%">    
 
 ## Getting Started
